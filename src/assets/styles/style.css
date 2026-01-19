@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+body {
+  background-color: rgb(255 255 255); /* white */
+  transition: background-color 200ms;
+}
+
+html {
+  background-color: rgb(249 250 251); /* white */
+  transition: background-color 200ms;
+}
+
+.dark body,
+.dark html {
+  background-color: rgb(3 7 18); /* gray-950 */
+}
