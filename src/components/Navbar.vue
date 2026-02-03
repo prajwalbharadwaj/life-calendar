@@ -34,7 +34,7 @@ const { isDark, toggleTheme } = useTheme()
           class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-gray-400"
           @click="mobileMenuOpen = true">
           <span class="sr-only">Open main menu</span>
-          <Bars3Icon class="size-6" aria-hidden="true" />
+          <!-- <Bars3Icon class="size-6" aria-hidden="true" /> -->
         </button>
       </div>
       <!-- <div class="hidden lg:flex lg:gap-x-12">
@@ -85,7 +85,7 @@ const { isDark, toggleTheme } = useTheme()
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 dark:text-gray-400"
             @click="mobileMenuOpen = false">
             <span class="sr-only">Close menu</span>
-            <XMarkIcon class="size-6" aria-hidden="true" />
+            <!-- <XMarkIcon class="size-6" aria-hidden="true" /> -->
           </button>
         </div>
         <div class="mt-6 flow-root">
