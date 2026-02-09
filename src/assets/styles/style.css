@@ -8,9 +8,7 @@ body {
 html {
   background-color: rgb(249 250 251); /* white */
   transition: background-color 200ms;
-}
-
-.dark body,
+}.dark body,
 .dark html {
   background-color: rgb(3 7 18); /* gray-950 */
 }
